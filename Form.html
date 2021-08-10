@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php"> 
+    <!-- Label ly hota h : ye jab hum name ,egibility, etc p click krte the automaticly uska blank me likhne ko aajata h--> 
+    <label for="name"> Name</label>
+    <!-- form ka action ky h line 11 ye puch raha toh usme hum backend.php daale -->
+    <!-- backend.php ye ky h toh ye h ki hum apne form to bta rahe backend.php me jao aur data save kr do -->
+    <!-- kon sa data toh jo user ne fill kra h -->
+    <!-- New : an form k andr data daalna start krenge -->
+    <div>
+    <!-- Name: <input type="text"> -->
+    <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <div>
+        Roll: <input type="text">
+        </div>
+        <!-- div ky krta hai: niche jb line me laana hota h then humlog div ya br tag use krte h -->
+        <br>
+        <div>
+        Email: <input type="email">
+        </div>
+        <!-- form submit kaise kre next line -->
+        <br>
+        <br>
+        <div>
+            <input type="date"> 
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> FeMale <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        <div>
+
+            <input type="reset" value="Reset Now">
+            <!-- sumit means jo bhi fill kra h wo backent me chla jaayega whereas reset means submit me jo daala h khali ho jaayega -->
+        </div>
+        <!-- Text area ab kaise aayega new pg me -->
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText"></textarea>
+        </div>
+
+
+        
+        
+    </form>
+    
+</body>
+</html>
